@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.form-layout {
+    background-color: #fff;
+}
+
+.panel-heading {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.panel-heading-left {
+    float: left;
+    width: 75%;
+    padding-top: 25px;
+}
+
+.panel-heading-right {
+    float: left;
+    width: 25%;
+    padding-top: 30px;
+    font-size: 70px;
+    color: #eee;
+    line-height: 100px;
+    text-align: right;
+}
+
+.panel-body {
+    padding: 25px 25px 30px 25px;
+    background: #eee;
+    text-align: left;
+}
+
+/* Footer Styling */
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
