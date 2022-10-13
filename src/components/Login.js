@@ -20,7 +20,7 @@ const handleLoginChange = (e) => {
 const handleSubmit = (event) => {
     event.preventDefault();
     props.login(login);
-    console.log("login value",login.username)
+    console.log("login Ka value",login.username)
 }
 
 useEffect(() => {
